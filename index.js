@@ -209,7 +209,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     if (member) {
         localStorage.setItem('memberDetails', JSON.stringify(member));
-        window.location.href = 'index1.1.html';
+        window.location.href = 'wt.html';
     } else {
         const messageElement = document.getElementById('message');
         messageElement.textContent = 'Invalid credentials';
